@@ -89,23 +89,6 @@ npm install
 npm test
 ```
 
-## Practical Assignment Screenshots
-
-The screenshots folder contains progress records and implementation snapshots for the practical assignments completed during the project.
-
-### Main application view
-
-![Study Planner main view](./Screenshots/Assignment3/Manual%20build.png)
-
-### Project workflow and build output
-
-![Build and project workflow](./Screenshots/Assignment3/Successful%20build.png)
-
-### Assignment progress screenshots
-
-![Assignment progress 1](./Screenshots/Assignment4/Screenshot%202026-10-27%20093432.png)
-![Assignment progress 2](./Screenshots/Assignment5/Screenshot%202026-09-15%20144128.png)
-
 ## Conclusion
 
 This practical project demonstrates the creation of a student-friendly planning tool using core front-end web technologies. It is a strong example of how a simple project can combine user interaction, data management, and professional documentation in one application.
