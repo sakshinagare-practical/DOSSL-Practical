@@ -12,7 +12,6 @@ It is useful for students who want to:
 - manage deadlines and study durations
 - track which subjects are completed or pending
 - keep short study notes in one place
-- review progress through a clean dashboard
 
 ## Features
 
