@@ -1,339 +1,90 @@
-Here is a more interactive and professional `README.md` for your **Study Planner** project:
+# Study Planner
 
-```markdown
-# 📚 Study Planner - Smart Learning Task Manager
+A practical web application for managing study topics, deadlines, and academic progress. This project is designed as a student-friendly task manager where users can add study subjects, set durations, record notes, and track which topics are completed.
 
-<div align="center">
+## Practical Project Overview
 
-A simple, interactive, and responsive **Study Planner Web Application** that helps students organize study topics, manage learning goals, and track completion progress.
+This project was developed as part of a practical assignment to demonstrate front-end web development using HTML, CSS, and JavaScript. The application focuses on real-world student needs such as tracking assignments, preparing for exams, and organizing daily learning tasks in one place.
 
-</div>
+## Features
 
----
+- Add study topics with duration and target date
+- Save notes for each topic
+- Mark tasks as pending or completed
+- Search topics quickly by name, notes, or status
+- Delete tasks when they are no longer needed
+- Change the interface between light and dark theme
+- Store data locally in the browser
 
-## 🚀 Live Preview
+## Technologies Used
 
-🌐 Open the application directly:
+- HTML5
+- CSS3
+- JavaScript
+- LocalStorage
+- Jest and JSDOM for testing
 
+## Project Structure
+
+```text
+Code/
+├── index.html
+├── style.css
+├── script.js
+├── package.json
+├── build.js
+├── Dockerfile
+├── deployment.yaml
+├── service.yaml
+├── Jenkinsfile
+├── README.md
+└── ...
 ```
 
-index.html
+## Run the Project
 
-````
+### Option 1: Open directly
 
-or run using a local server:
+Open `index.html` in your browser.
+
+### Option 2: Run with a local server
 
 ```bash
+cd Code
 python3 -m http.server 8000
-````
+```
 
 Then visit:
 
-```
+```text
 http://localhost:8000
 ```
 
----
-
-# 📌 Project Overview
-
-The **Study Planner** is a lightweight frontend web application designed to help students manage their study activities efficiently.
-
-Users can:
-
-✅ Create study topics
-✅ Set study duration and target dates
-✅ Add personal notes
-✅ Track completion status
-✅ Search topics instantly
-✅ Switch between Light and Dark themes
-
-The project is built completely using frontend technologies without any backend dependency.
-
----
-
-# ✨ Features
-
-## 📝 Topic Management
-
-Create and manage your study tasks easily.
-
-| Feature         | Description                       |
-| --------------- | --------------------------------- |
-| ➕ Add Topic     | Create a new study topic          |
-| ✏️ Edit Topic   | Update existing study information |
-| 🗑 Delete Topic | Remove unwanted tasks             |
-| 📅 Target Date  | Set deadline for completion       |
-| ⏱ Duration      | Track expected study time         |
-| 📖 Notes        | Add additional information        |
-
----
-
-## ✅ Task Status Tracking
-
-Keep track of your learning progress.
-
-Status options:
-
-🟡 **Pending**
-
-* Topic is not completed yet
-
-🟢 **Finished**
-
-* Topic has been completed
-
-One click toggles between both states.
-
----
-
-
-
-
-## 🔍 Smart Search
-
-Find your study topics instantly.
-
-Search works with:
-
-* Topic name
-* Notes
-* Completion status
-
-Example:
-
-```
-Search: Java
-```
-
-Results:
-
-```
-Java Basics
-Java Collections
-Java OOP Concepts
-```
-
----
-
-# 🌙 Theme Support
-
-Enjoy a comfortable learning experience.
-
-Available themes:
-
-☀️ Light Mode
-
-🌙 Dark Mode
-
-Your theme preference is saved automatically using:
-
-```
-localStorage
-```
-
-so your choice remains after refreshing the page.
-
----
-
-# 🎨 User Interface
-
-The application provides:
-
-* Responsive dashboard layout
-* Modern input card design
-* Interactive buttons
-* Status badges
-* Clean table view
-* Mobile-friendly design
-
----
-
-# 🛠 Technologies Used
-
-| Technology   | Purpose                       |
-| ------------ | ----------------------------- |
-| HTML5        | Page structure                |
-| CSS3         | Styling and responsive design |
-| JavaScript   | Application logic             |
-| LocalStorage | Theme preference storage      |
-
----
-
-# 📂 Project Structure
-
-```
-Student-Management-System
-│
-├── index.html
-│   └── Main application UI
-│
-├── style.css
-│   └── Layout, themes, buttons, table styling
-│
-├── script.js
-│   └── Task management logic
-│
-└── README.md
-    └── Project documentation
-```
-
----
-
-# 🔄 Application Flow
-
-```
-User Input
-    |
-    ↓
-Add Topic Button
-    |
-    ↓
-Validation
-    |
-    ↓
-Store Task Object
-    |
-    ↓
-Render Table
-    |
-    ↓
-Manage / Edit / Complete Tasks
-```
-
----
-
-# 📦 Data Model
-
-Each study topic follows this structure:
-
-```javascript
-{
-    id: 1,
-    topic: "JavaScript Basics",
-    duration: "2 Hours",
-    targetDate: "2026-08-10",
-    notes: "Learn functions and arrays",
-    finished: false
-}
-```
-
----
-
-# 🖥 Screenshots
-
-### Dashboard
-
-```
-+--------------------------------+
-|        📚 Study Planner        |
-+--------------------------------+
-| Topic      | Duration | Status |
-|------------|----------|--------|
-| Java       | 2 Hours  | Pending|
-| React      | 3 Hours  | Done   |
-+--------------------------------+
-```
-
----
-
-# 🚀 Installation & Setup
-
-### 1. Clone Repository
+## Testing
 
 ```bash
-git clone <repository-url>
+cd Code
+npm install
+npm test
 ```
 
-### 2. Open Project
+## Screenshot Gallery
 
-```bash
-cd Student-Management-System
-```
+The screenshots below show the practical implementation and progress of the project.
 
-### 3. Run Application
+### Main application interface
 
-Open:
+![Study Planner dashboard](../Screenshots/Assignment3/Manual%20build.png)
 
-```
-index.html
-```
+### Build and deployment workflow
 
-or use:
+![Study Planner build output](../Screenshots/Assignment3/Successful%20build.png)
 
-```bash
-python3 -m http.server 8000
-```
+### Assignment progress examples
 
----
+![Progress screenshot 1](../Screenshots/Assignment4/Screenshot%202026-10-27%20093432.png)
+![Progress screenshot 2](../Screenshots/Assignment5/Screenshot%202026-09-15%20144128.png)
 
-# 🔮 Future Improvements
+## Summary
 
-## Planned Features
-
-* 💾 Save tasks permanently using LocalStorage
-* 📊 Progress dashboard
-* 🔔 Reminder notifications
-* 📤 Export tasks as CSV/JSON
-* 🔄 Drag and drop task ordering
-* 🔎 Advanced filters
-* 🧪 Automated testing
-* ♿ Accessibility improvements
-
----
-
-# 🎯 Learning Outcomes
-
-Through this project, you can learn:
-
-✔ DOM manipulation
-✔ JavaScript array operations
-✔ CRUD operations
-✔ Event handling
-✔ Responsive UI design
-✔ Browser storage handling
-✔ Frontend project structure
-
----
-
-# 🤝 Contribution
-
-Contributions are welcome!
-
-Steps:
-
-```bash
-git checkout -b feature-name
-
-git add .
-
-git commit -m "Add new feature"
-
-git push origin feature-name
-```
-
-Create a Pull Request.
-
----
-
-# 👨‍💻 Author
-
-**Your Name**
-
-Frontend Developer | Student
-
----
-
-# ⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub.
-
-Happy Learning! 🚀📚
-
-```
-
-This README is suitable for a GitHub project submission and makes the repository look like a complete frontend project.
-```
-
-
-hiii
+This Study Planner project is a practical and useful web application that demonstrates how a simple interface can help students organize learning tasks effectively. It combines user-friendly interaction, responsive design, and practical project documentation in one complete solution.
